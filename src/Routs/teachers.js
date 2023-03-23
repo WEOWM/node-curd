@@ -1,5 +1,5 @@
 const express = require('express')
-const teachers = require('../modals/teacher')
+const teachers = require('../Modals/teacher')
 const router = express.Router()
 
 // ADD

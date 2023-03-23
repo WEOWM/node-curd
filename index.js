@@ -4,7 +4,7 @@ require("dotenv").config()
 const bodyparser = require("body-parser")
 const app = express()
 const url = process.env.MONGODB_URI
-const teacherRoute = require('./Routs/teachers')
+const teacherRoute = require('./src/Routs/teachers')
 const bodyParser = require('body-parser')
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json())
